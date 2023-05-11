@@ -1,0 +1,138 @@
+<html>
+  <head>
+ <link rel="stylesheet" type="text/css" href="order.css">
+  <title>Burger Pug</title>
+  </head>
+  <body>
+    <div id="container">
+    <form>
+		<fieldset>
+         <legend style="text-align:center">Contact Information</legend>
+		 <label for="name">Name</label>
+         <td><input type="text" name="name" size="30" placeholder="Please enter your name..." maxlength="50" autofocus required></td>
+		  <tr>
+		  <td>Home Address</td>
+		  <td><input type="text" name="home add" size="30" placeholder="Please enter your address" maxlength="50" autofocus required></td>
+          </tr>
+		  <tr>
+		  <td>Contact Number</td>
+          <td><input type="text" name="contact no." size="30" placeholder="Please enter your phone number" maxlength="50" autofocus required></td>
+		  </tr>
+		  <tr>
+          <td>E-mail Address</td>
+          <td><input type="text" name="email add" size="30" placeholder="please enter your e-mail address" maxlength="50" autofocus required></td>
+		 </tr>
+		 <tr>
+		 <td><label for="ability">Describe of how to get to the place</label></td>
+		 <textarea name="message" placeholder="meet me infront of my house"> 
+         </textarea>
+		 </tr>
+		</fieldset>
+
+		<fieldset>
+        <legend>What are you craving today?</legend>
+         <input type="checkbox" name="burger">Burgers
+         <input type="checkbox" name="pasta">Pasta
+         <input type="checkbox" name="fries">Fries
+         <input type="checkbox" name="drinks">Drinks  
+          
+        <legend>Burgers</legend>
+         <input type="checkbox" name="burger">Single Patty
+		 <input type="checkbox" name="burger">Double Patty
+		 <input type="checkbox" name="burger">With Cheese	
+		 <input type="checkbox" name="burger">Coleslaw
+		 <input type="checkbox" name="burger">Tomato
+		 <input type="checkbox" name="burger">Onion
+		 <input type="checkbox" name="burger">Cucumber
+		 <input type="checkbox" name="burger">Bacon
+          
+        <legend>Choice of Bun</legend>
+          <input type="radio" name="gender">White Bun
+          <input type="radio" name="gender">Wheat Bun
+          <input type="radio" name="gender">Honey Oat
+          <input type="radio" name="gender">Sugar Free
+
+        <legend>Quantity</legend>
+		  <tr>
+		  <td>Pasta</td>
+		  </tr>
+		  <tr>
+			<td>
+				<select name="pasta" id="Pasta" size="1">
+					<option value="green">Carbonara</option>
+					<option value="blue">Pesto</option>
+					<option value="brown">Spaghetti</option>
+					<option value="black">Extra Cheese</option>
+					<option value="black">Extra Sauce</option>
+				</select>&nbsp&nbsp&nbsp
+			</td>
+		   </tr>
+		   
+		  <tr>
+		  <td>Fries</td>
+		  </tr>
+		  <tr>
+			<td>
+				<select name="fries" id="fries" size="1">
+					<option value="s">Small</option>
+					<option value="m">Medium</option>
+					<option value="l">Large</option>
+				</select>&nbsp&nbsp&nbsp
+			</td>
+		   </tr>
+		   
+		  <tr>
+		  <td>Flavor</td>
+		  </tr>
+		  <tr>
+			<td>
+				<select name="flavor" id="flavor" size="1">
+					<option value="bbq">BBQ</option>
+					<option value="cheese">CHEESE</option>
+					<option value="sour and cream">SOUR and CREAM</option>
+					<option value="spicy bbq">SPICY BBQ</option>
+					<option value="bbq">WASABE</option>
+				</select>&nbsp&nbsp&nbsp
+			</td>
+		   </tr>
+    
+
+          <legend>Drinks</legend>
+          <input type="radio" name="gender">Coke
+          <input type="radio" name="gender">Coke Zero  
+          <input type="radio" name="gender">Pepsi          
+		  <input type="radio" name="gender">Royal		  
+		  <input type="radio" name="gender">Sprite
+		  
+		  &nbsp&nbsp
+		  <tr>
+		  <td>size:</td>
+		  </tr>
+		  <tr>
+			<td>
+				<select name="inumin" id="inumin" size="1">
+					<option value="s">Small</option>
+					<option value="m">Medium</option>
+					<option value="l">Large</option>
+				</select>&nbsp&nbsp&nbsp
+			</td>
+		   </tr>  
+	 
+	
+        <legend>Delivery</legend>
+		<input type="radio">Delivery
+		<input type="radio">Pick-up
+    
+	 
+          <legend>Feedback</legend>
+      <textarea name="message"> 
+      </textarea>
+    </fieldset>
+	<br>
+    <input type="submit" name"submit"
+    onclick="myfunction()">
+    <input type="reset" name"reset">
+    </form>
+    </div>
+    </body>
+     </html>
